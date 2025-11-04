@@ -108,6 +108,14 @@ a {
 }
 /* #endregion */
 /* #region your business styles */
+.your-business-container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+  max-width: 526px;
+  align-items: center;
+}
+
 .title-your-business {
   font-weight: 700;
   font-size: 56px;
@@ -115,6 +123,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding: 191px 0 48px;
+}
+.button-service {
+  display: flex;
+  justify-content: center;
 }
 .button {
   font-weight: 500;
@@ -124,16 +137,36 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 16px 32px;
+  height: 56px;
+  margin-bottom: 188px;
 }
+
 .button:hover,
 .button:focus {
   background-color: #404bbf;
 }
+
 .your-business {
   background-color: #2e2f42;
 }
+
 /* #endregion */
 /* #region advantages styles */
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: calc((100% - 72px) / 4);
+}
+.advantages-item {
+  max-width: 264px;
+}
 .advantages .title-advantages {
   font-weight: 500;
   font-size: 20px;
