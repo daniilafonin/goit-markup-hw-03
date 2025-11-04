@@ -26,7 +26,7 @@ a {
 
 /* #comon */
 .container {
-  max-width: 1258px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -183,6 +183,7 @@ a {
 .advantages-item {
   background-color: #fff;
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .advantages .title-advantages {
   font-weight: 500;
