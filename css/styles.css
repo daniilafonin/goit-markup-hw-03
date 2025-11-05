@@ -23,6 +23,9 @@ p {
 a {
   text-decoration: none;
 }
+.img {
+  display: block;
+}
 
 /* #comon */
 .container {
@@ -245,7 +248,9 @@ a {
 .our-team-item {
   background-color: #fff;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
+
 .our-team-list {
   display: flex;
   gap: 24px;
@@ -318,5 +323,5 @@ a {
 }
 .footer-logo {
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
 }
