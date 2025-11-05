@@ -23,7 +23,8 @@ p {
 a {
   text-decoration: none;
 }
-.img {
+
+img {
   display: block;
 }
 
@@ -266,6 +267,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio {
