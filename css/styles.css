@@ -129,6 +129,7 @@ img {
   color: #fff;
   max-width: 496px;
   align-items: center;
+  margin-bottom: 45px;
 }
 
 .button {
@@ -322,6 +323,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .footer-logo {
   margin-bottom: 16px;
